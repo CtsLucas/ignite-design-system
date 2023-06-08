@@ -24,7 +24,7 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Digite seu nome',
+    placeholder: 'Type your email',
   },
 }
 
