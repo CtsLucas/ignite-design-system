@@ -1,6 +1,6 @@
 import { styled } from '../../styles'
 
-export const TextInputContainter = styled('div', {
+export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
   borderRadius: '$sm',
   boxSizing: 'border-box',
@@ -19,10 +19,6 @@ export const TextInputContainter = styled('div', {
     },
   },
 
-  defaultVariants: {
-    size: 'md',
-  },
-
   '&:has(input:focus)': {
     borderColor: '$ignite300',
   },
@@ -31,21 +27,25 @@ export const TextInputContainter = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  defaultVariants: {
+    size: 'md',
+  },
 })
 
 export const Prefix = styled('span', {
   fontFamily: '$default',
   fontSize: '$sm',
   color: '$gray400',
-  fontWeight: '$regular',
+  fontWeight: 'regular',
 })
 
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
   color: '$white',
-  fontWeight: '$regular',
-  backgroundColor: 'transparent',
+  fontWeight: 'regular',
+  background: 'transparent',
   border: 0,
   width: '100%',
 
@@ -58,6 +58,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })
