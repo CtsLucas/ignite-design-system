@@ -1,0 +1,2 @@
+import{A as t}from"./index.66c3021a.js";import"./index.d955bb8c.js";import"./iframe.c1452aa2.js";import"./index.c79872df.js";import"./jsx-runtime.95bac79e.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/CtsLucas.png",alt:"Lucas Silva"},argTypes:{src:{control:{type:"text"}}}},p={},m={args:{src:void 0}},e=["Primary","WithFallcak"];export{p as Primary,m as WithFallcak,e as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.1bb4634d.js.map
